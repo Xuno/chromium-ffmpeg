@@ -1,0 +1,12 @@
+270c270
+<   parallel_jobs = multiprocessing.cpu_count()
+---
+>   parallel_jobs = 1 #multiprocessing.cpu_count()
+555,557c555,557
+<       '--enable-decoder=aac,h264,mp3',
+<       '--enable-demuxer=aac,mp3,mov',
+<       '--enable-parser=aac,h264,mpegaudio',
+---
+>       '--enable-decoder=aac,h264,mp3,hevc',
+>       '--enable-demuxer=aac,mp3,mov,hevc',
+>       '--enable-parser=aac,h264,mpegaudio,hevc',

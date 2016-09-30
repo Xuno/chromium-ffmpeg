@@ -1,0 +1,34 @@
+681a682,714
+> #addons from http://pastebin.com/RMUqp2bU
+> 
+> ffmpeg_c_sources += [
+>    "libavcodec/hevc_filter.c",
+>    "libavcodec/hevc.c",
+>    "libavcodec/x86/hevcdsp_init.c",
+>    "libavcodec/hevc_parser.c",
+>    "libavcodec/hevc_sei.c",
+>    "libavcodec/hevc_data.c",
+>    "libavcodec/hevc_ps.c",
+>    "libavcodec/hevc_mp4toannexb_bsf.c",
+>    "libavcodec/hevcpred.c",
+>    "libavcodec/hevc_parse.c",
+>    "libavcodec/hevc_cabac.c",
+>    "libavcodec/hevcdsp_template.c",
+>    "libavcodec/hevcdsp.c",
+>    "libavcodec/hevc_refs.c",
+>    "libavcodec/hevc_ps_enc.c",
+>    "libavcodec/hevcpred_template.c",
+>    "libavcodec/hevc_mvs.c",
+>    "libavformat/hevc.c",
+>    "libavformat/hevcdec.c"
+> ]
+> ffmpeg_yasm_sources += [
+>    "libavcodec/x86/hevc_res_add.asm",
+>    "libavcodec/x86/hevc_mc.asm",
+>    "libavcodec/x86/hevc_sao_10bit.asm",
+>    "libavcodec/x86/hevc_deblock.asm",
+>    "libavcodec/x86/hevc_idct.asm",
+>    "libavcodec/x86/hevc_sao.asm"
+> ]
+> 
+> 
