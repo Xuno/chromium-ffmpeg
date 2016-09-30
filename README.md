@@ -50,4 +50,4 @@ follow pull requests so they will likely be ignored.
 
 ### Version
 
-Original version ffmpeg: [git-2016-09-30-2aeb9ef](https://chromium.googlesource.com/chromium/third_party/ffmpeg.git)
+Original version ffmpeg: [git-2016-09-16-3c7a098](https://chromium.googlesource.com/chromium/third_party/ffmpeg.git)
